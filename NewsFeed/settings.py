@@ -25,7 +25,7 @@ SECRET_KEY = '$gkc9d9($xaol@2)$uua5e19)63z^88ri_rbe%*2-yl5jsln2v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['newsfeedweb.herokuapp.com',]
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
 ]
 
 MIDDLEWARE = [
